@@ -2,11 +2,18 @@
 
 <html lang = "en">
     
+    <link href="styles/styles.css" rel="stylesheet" />
+
     <head>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, inicial-scale = 1.0"/>
         <title>LibFinder</title>
-        <h1>Lib Finder</h1>
+        <div id="head"></div>
+        <div id="logo_container">
+            <img id="logo" src="logo.png" alt="LibFinder_logo" >
+        </div>
+            
+       
     </head>
     
     <body>
@@ -15,7 +22,7 @@
         
         <form id="form">
             <input id="query" type="text" name="text" class="search" placeholder="Search Here">
-            <input id="btn_submit" type="submit" name="submit" class="submit" placeholder="Search">
+            <input id="btn_submit" type="image" src="search_icon.png" name="submit" class="submit">
         </form>
         <div id="lib_container">
             <script src="scripts/index.js"></script>
