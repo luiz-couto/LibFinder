@@ -32,25 +32,27 @@ bottom: 81.25%;
     top: 31.5%;
     bottom: 63.75%;
     margin-left: 28%;
-    align-self: center;
+    margin-right: 25%;
+    
     width: 40%;
     position: absolute;
     font-family: Montserrat;
     font-style: normal;
     font-size: 18px;
     height: 5%;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
 
 }
 
 #btn_submit{
     
     position: absolute;
-    left: 64.75%;
+    left: 65.75%;
     right: 30.75%;
-    top: 32.0%;
+    top: 32.15%;
     bottom: 63.75%;
     max-width: 5%;
-    max-height: 4.8%;
+    height: 4.8%;
     background:rgb(250,250,250);
 
 }
@@ -59,9 +61,10 @@ bottom: 81.25%;
 
 #lib_container{
 
-    margin-left: 28.5%;
-    margin-top: 40%;
-    max-height: 38%;
+    top: 40.5%;
+    bottom: 20.75%;
+    
+    margin-left: 28%;
     width: 42.5%;
     position: absolute;
     overflow: scroll;
